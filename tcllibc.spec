@@ -9,6 +9,7 @@ BuildRequires:  autoconf
 BuildRequires:  gcc
 BuildRequires:  make
 BuildRequires:  tcl
+BuildRequires:  tcllib
 BuildRequires:  critcl
 BuildRequires:  critcl-devel
 Requires:       tcl 
