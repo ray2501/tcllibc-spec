@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tcllib-1.19"
-set fileurl "https://sourceforge.net/projects/tcllib/files/tcllib/1.19/tcllib-1.19.tar.gz"
+set base "tcllib-1.20"
+set fileurl "https://sourceforge.net/projects/tcllib/files/tcllib/1.20/tcllib-1.20.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
