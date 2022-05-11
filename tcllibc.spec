@@ -17,7 +17,7 @@ Version:        0.3.15
 Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 License:        TCL
-Source0:        tcllib-1.20.tar.gz
+Source0:        tcllib-1.21.tar.gz
 BuildRoot:      %{buildroot}
 
 %description
@@ -28,7 +28,7 @@ large collection of Tcl programmers.
 It is the parts of Tcllib written in C.
 
 %prep
-%setup -q -n tcllib-1.20
+%setup -q -n tcllib-1.21
 
 %build
 autoconf
