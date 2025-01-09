@@ -4,7 +4,7 @@ set arch "x86_64"
 set base "tcllib-1.21"
 set fileurl "https://sourceforge.net/projects/tcllib/files/tcllib/1.21/tcllib-1.21.tar.gz"
 
-set var [list wget $fileurl -O $base.tar.gz]
+set var [list wget2 $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
 
 if {[file exists build]} {
