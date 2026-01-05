@@ -13,11 +13,11 @@ BuildRequires:  tcllib
 BuildRequires:  critcl
 BuildRequires:  critcl-devel
 Requires:       tcl 
-Version:        0.3.15
+Version:        2.0
 Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 License:        TCL
-Source0:        tcllib-1.21.tar.gz
+Source0:        tcllib-2.0.tar.xz
 BuildRoot:      %{buildroot}
 
 %description
@@ -28,7 +28,7 @@ large collection of Tcl programmers.
 It is the parts of Tcllib written in C.
 
 %prep
-%setup -q -n tcllib-1.21
+%setup -q -n tcllib-2.0
 
 %build
 autoconf
